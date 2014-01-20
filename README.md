@@ -24,8 +24,9 @@ var sequence = Popcorn.sequence.smart(
                         in: 8,
                         out: 18
                     }
-                ],
-                'http://soundcloud.com/lilleput/popcorn');
+                ]
+                [,'http://soundcloud.com/lilleput/popcorn']);
+                //audio src is optional. if you set an audio source the videos' audio will be muted.
                 
                 
 Sequences implement the following methods:
