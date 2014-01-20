@@ -15,17 +15,17 @@ var sequence = Popcorn.sequence.smart(
                         out: 5
                     },
                     {
-                        src: "http://www.youtube.com/watch?v=hT_nvWreIhg",
+                        src: "http://vimeo.com/44633289",
                         in: 13,
                         out: 20
                     },
                     {
-                        src: "http://www.youtube.com/watch?v=EHkozMIXZ8w",
+                        src: "http://www.youtube.com/watch?v=EHkozMIXZ8w&wmode=opaque&controls=0&disablekb=1&controls=0&modestbranding=1&rel=0&showinfo=0",
                         in: 8,
                         out: 18
                     }
-                ]
-                [, audio_src]);
+                ],
+                'http://soundcloud.com/lilleput/popcorn');
                 
                 
 Sequences implement the following methods:
