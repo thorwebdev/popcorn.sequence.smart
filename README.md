@@ -42,5 +42,7 @@ sequence.pause();
 //check if sequence is paused
 
 sequence.paused();
+
+//TODO: trigger canplaythrough event
 ```
 
