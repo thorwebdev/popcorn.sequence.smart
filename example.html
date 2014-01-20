@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="http://popcornjs.org/code/dist/popcorn-complete.min.js"></script>
+	<script src="popcorn.sequence.smart.js"></script>
+    <script>
+	var ys;
+	var audio_src = 'http://soundcloud.com/lilleput/popcorn';
+	var sequence = [{src: 'http://www.youtube.com/watch?v=hHUbLv4ThOo&wmode=opaque&controls=0&disablekb=1&controls=0&modestbranding=1&rel=0&showinfo=0', in:5,out:10}, {src: 'http://www.youtube.com/watch?v=hT_nvWreIhg&wmode=opaque&controls=0&disablekb=1&controls=0&modestbranding=1&rel=0&showinfo=0', in:13,out:20},{src:'http://vimeo.com/44633289',in:8,out:18},{src:'http://www.youtube.com/watch?v=EHkozMIXZ8w&wmode=opaque&controls=0&disablekb=1&controls=0&modestbranding=1&rel=0&showinfo=0',in:8,out:18}];
+	
+	document.addEventListener("DOMContentLoaded", function () {
+		ss = Popcorn.sequence.smart('videos', sequence, audio_src);
+	});
+    </script>
+  </head>
+  <body>
+	<div id="videos" style="width: 640px; height: 360px;position:relative;" ></div>
+  </body>
+</html>
